@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Soul-Stirring Quotes</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      padding: 20px;
+      max-width: 900px;
+      color: #222;
+      background-color: #fff1db;
+      margin: auto;
+    }
+    h2 {
+      margin-top: 40px;
+      color: #333;
+      border-bottom: 2px solid #eee;
+      padding-bottom: 5px;
+    }
+.card {
+  border: 1px solid #ccc;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  background: #f9f9f9;
+  transition: opacity 0.5s ease;
+}
+
+.card.fade-out {
+  opacity: 0;
+}
+    button {
+      margin-top: 10px;
+      padding: 8px 12px;
+      border: none;
+      background-color: #007bff;
+      color: white;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #0056b3;
+    }
+.copied-message {
+  display: inline-block;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  color: green;
+  font-size: 0.9em;
+  margin-left: 10px;
+}
+
+.copied-message.show {
+  opacity: 1;
+}
+
+  </style>
+</head>
+<body>
+  <h1>Soul-Stirring Quotes</h1>
+
+<div class="card">
+  <p id="quote51">Betrayal doesn’t just hurt because of the lie — it hurts because you believed the love was real.</p>
+  <button onclick="copyToClipboard('quote51', 'msg51')">Copy</button>
+  <span class="copied-message" id="msg51">Copied!</span>
+</div>
+
+<div class="card">
+  <p id="quote52">The deepest pain comes not from enemies, but from the hands that once held us gently.</p>
+  <button onclick="copyToClipboard('quote52', 'msg52')">Copy</button>
+  <span class="copied-message" id="msg52">Copied!</span>
+</div>
+
+<div class="card">
+  <p id="quote53">Not everyone who smiles with you is standing beside you.</p>
+  <button onclick="copyToClipboard('quote53', 'msg53')">Copy</button>
+  <span class="copied-message" id="msg53">Copied!</span>
+</div>
+
+<div class="card">
+  <p id="quote54">Sometimes, betrayal doesn’t break you. It breaks the illusion.</p>
+  <button onclick="copyToClipboard('quote54', 'msg54')">Copy</button>
+  <span class="copied-message" id="msg54">Copied!</span>
+</div>
+
+<div class="card">
+  <p id="quote55">The knife never surprises you. It’s whose hand it’s in that does.</p>
+  <button onclick="copyToClipboard('quote55', 'msg55')">Copy</button>
+  <span class="copied-message" id="msg55">Copied!</span>
+</div>
+
+<div class="card">
+  <p id="quote56">Betrayal is the moment you realize your loyalty was a one-way street.</p>
+  <button onclick="copyToClipboard('quote56', 'msg56')">Copy</button>
+  <span class="copied-message" id="msg56">Copied!</span>
+</div>
+
+<div class="card">
+  <p id="quote57">What they did speaks of them. How you rise speaks of you.</p>
+  <button onclick="copyToClipboard('quote57', 'msg57')">Copy</button>
+  <span class="copied-message" id="msg57">Copied!</span>
+</div>
+
+<div class="card">
+  <p id="quote58">When trust shatters, silence enters — not because you have nothing to say, but because it no longer matters.</p>
+  <button onclick="copyToClipboard('quote58', 'msg58')">Copy</button>
+  <span class="copied-message" id="msg58">Copied!</span>
+</div>
+
+<div class="card">
+  <p id="quote59">Forgiveness doesn’t mean they deserve you back. It means you deserve peace.</p>
+  <button onclick="copyToClipboard('quote59', 'msg59')">Copy</button>
+  <span class="copied-message" id="msg59">Copied!</span>
+</div>
+
+<div class="card">
+  <p id="quote60">The one who betrayed you already knew the cost. They just didn’t think you’d leave.</p>
+  <button onclick="copyToClipboard('quote60', 'msg60')">Copy</button>
+  <span class="copied-message" id="msg60">Copied!</span>
+</div>
+
+<div class="card">
+  <p id="quote61">The betrayal didn’t change your worth. It revealed theirs.</p>
+  <button onclick="copyToClipboard('quote61', 'msg61')">Copy</button>
+  <span class="copied-message" id="msg61">Copied!</span>
+</div>
+
+<div class="card">
+  <p id="quote62">You didn’t lose them — they lost someone who would’ve never done what they did.</p>
+  <button onclick="copyToClipboard('quote62', 'msg62')">Copy</button>
+  <span class="copied-message" id="msg62">Copied!</span>
+</div>
+
+<div class="card">
+  <p id="quote63">Sometimes we confuse their access for connection. Betrayal clears that up.</p>
+  <button onclick="copyToClipboard('quote63', 'msg63')">Copy</button>
+  <span class="copied-message" id="msg63">Copied!</span>
+</div>
+
+<div class="card">
+  <p id="quote64">You don’t need closure from someone who made peace with hurting you.</p>
+  <button onclick="copyToClipboard('quote64', 'msg64')">Copy</button>
+  <span class="copied-message" id="msg64">Copied!</span>
+</div>
+
+<div class="card">
+  <p id="quote65">Trust once broken never comes back in the same shape.</p>
+  <button onclick="copyToClipboard('quote65', 'msg65')">Copy</button>
+  <span class="copied-message" id="msg65">Copied!</span>
+</div>
+
+<div class="card">
+  <p id="quote66">You taught them loyalty. They taught you limits.</p>
+  <button onclick="copyToClipboard('quote66', 'msg66')">Copy</button>
+  <span class="copied-message" id="msg66">Copied!</span>
+</div>
+
+<div class="card">
+  <p id="quote67">You walked away not because you stopped caring — but because you started.</p>
+  <button onclick="copyToClipboard('quote67', 'msg67')">Copy</button>
+  <span class="copied-message" id="msg67">Copied!</span>
+</div>
+
+<div class="card">
+  <p id="quote68">Let them go. Their betrayal already did.</p>
+  <button onclick="copyToClipboard('quote68', 'msg68')">Copy</button>
+  <span class="copied-message" id="msg68">Copied!</span>
+</div>
+
+<div class="card">
+  <p id="quote69">Betrayal doesn't make you naive. It makes you human.</p>
+  <button onclick="copyToClipboard('quote69', 'msg69')">Copy</button>
+  <span class="copied-message" id="msg69">Copied!</span>
+</div>
+
+<div class="card">
+  <p id="quote70">Your honesty was a gift. Their betrayal was a return you never asked for.</p>
+  <button onclick="copyToClipboard('quote70', 'msg70')">Copy</button>
+  <span class="copied-message" id="msg70">Copied!</span>
+</div>
+
+<div class="card">
+  <p id="quote71">Family isn’t built in blood. It’s built in who stays when things fall apart.</p>
+  <button onclick="copyToClipboard('quote71', 'msg71')">Copy</button>
+  <span class="copied-message" id="msg71">Copied!</span>
+</div>
+
+<div class="card">
+  <p id="quote72">The people who see you at your worst and still choose you — that’s family.</p>
+  <button onclick="copyToClipboard('quote72', 'msg72')">Copy</button>
+  <span class="copied-message" id="msg72">Copied!</span>
+</div>
+
+<div class="card">
+  <p id="quote73">Sometimes the most loving thing you can do is protect your peace from your own kin.</p>
+  <button onclick="copyToClipboard('quote73', 'msg73')">Copy</button>
+  <span class="copied-message" id="msg73">Copied!</span>
+</div>
+
+<div class="card">
+  <p id="quote74">You don’t have to be close to someone just because you’re related.</p>
+  <button onclick="copyToClipboard('quote74', 'msg74')">Copy</button>
+  <span class="copied-message" id="msg74">Copied!</span>
+</div>
+
+<div class="card">
+  <p id="quote75">Family is not a label — it’s a feeling of safety.</p>
+  <button onclick="copyToClipboard('quote75', 'msg75')">Copy</button>
+  <span class="copied-message" id="msg75">Copied!</span>
+</div>
+
+<div class="card">
+  <p id="quote76">Chosen family often heals what bloodlines broke.</p>
+  <button onclick="copyToClipboard('quote76', 'msg76')">Copy</button>
+  <span class="copied-message" id="msg76">Copied!</span>
+</div>
+
+<div class="card">
+  <p id="quote77">Not every root is worth keeping just because it’s old.</p>
+  <button onclick="copyToClipboard('quote77', 'msg77')">Copy</button>
+  <span class="copied-message" id="msg77">Copied!</span>
+</div>
+
+<div class="card">
+  <p id="quote78">You can love your family and still grieve what they never became for you.</p>
+  <button onclick="copyToClipboard('quote78', 'msg78')">Copy</button>
+  <span class="copied-message" id="msg78">Copied!</span>
+</div>
+
+<div class="card">
+  <p id="quote79">Family are the ones who make space for your entire self — not just the easy parts.</p>
+  <button onclick="copyToClipboard('quote79', 'msg79')">Copy</button>
+  <span class="copied-message" id="msg79">Copied!</span>
+</div>
+
+<div class="card">
+  <p id="quote80">Home is not a place. It’s people who never make you earn your place there.</p>
+  <button onclick="copyToClipboard('quote80', 'msg80')">Copy</button>
+  <span class="copied-message" id="msg80">Copied!</span>
+</div>
+
+<div class="card">
+  <p id="quote81">The people who know your history and still believe in your future — keep them close.</p>
+  <button onclick="copyToClipboard('quote81', 'msg81')">Copy</button>
+  <span class="copied-message" id="msg81">Copied!</span>
+</div>
+
+<div class="card">
+  <p id="quote82">You can outgrow people and still honor the role they played.</p>
+  <button onclick="copyToClipboard('quote82', 'msg82')">Copy</button>
+  <span class="copied-message" id="msg82">Copied!</span>
+</div>
+
+<div class="card">
+  <p id="quote83">Family doesn’t always mean comfort. Sometimes it means learning to love through complexity.</p>
+  <button onclick="copyToClipboard('quote83', 'msg83')">Copy</button>
+  <span class="copied-message" id="msg83">Copied!</span>
+</div>
+
+<div class="card">
+  <p id="quote84">Your peace matters more than tradition.</p>
+  <button onclick="copyToClipboard('quote84', 'msg84')">Copy</button>
+  <span class="copied-message" id="msg84">Copied!</span>
+</div>
+
+<div class="card">
+  <p id="quote85">Family is where your soul feels safest, not just your body.</p>
+  <button onclick="copyToClipboard('quote85', 'msg85')">Copy</button>
+  <span class="copied-message" id="msg85">Copied!</span>
+</div>
+
+<div class="card">
+  <p id="quote86">Blood is biology. Loyalty is choice.</p>
+  <button onclick="copyToClipboard('quote86', 'msg86')">Copy</button>
+  <span class="copied-message" id="msg86">Copied!</span>
+</div>
+
+<div class="card">
+  <p id="quote87">It’s okay to build the family you never had.</p>
+  <button onclick="copyToClipboard('quote87', 'msg87')">Copy</button>
+  <span class="copied-message" id="msg87">Copied!</span>
+</div>
+
+<div class="card">
+  <p id="quote88">The ones who make you feel like too much were never meant to hold you.</p>
+  <button onclick="copyToClipboard('quote88', 'msg88')">Copy</button>
+  <span class="copied-message" id="msg88">Copied!</span>
+</div>
+
+<div class="card">
+  <p id="quote89">You owe it to your future to heal what your family normalized.</p>
+  <button onclick="copyToClipboard('quote89', 'msg89')">Copy</button>
+  <span class="copied-message" id="msg89">Copied!</span>
+</div>
+
+<div class="card">
+  <p id="quote90">Forgiveness doesn’t mean access — especially when it’s family.</p>
+  <button onclick="copyToClipboard('quote90', 'msg90')">Copy</button>
+  <span class="copied-message" id="msg90">Copied!</span>
+</div>
+
+<div class="card">
+  <p id="quote91">You don’t get time back — but you do get to decide how it moves forward.</p>
+  <button onclick="copyToClipboard('quote91', 'msg91')">Copy</button>
+  <span class="copied-message" id="msg91">Copied!</span>
+</div>
+
+<div class="card">
+  <p id="quote92">You are not behind — you’re just ready to live on purpose now.</p>
+  <button onclick="copyToClipboard('quote92', 'msg92')">Copy</button>
+  <span class="copied-message" id="msg92">Copied!</span>
+</div>
+
+<div class="card">
+  <p id="quote93">How you spend your time reveals what you believe about your worth.</p>
+  <button onclick="copyToClipboard('quote93', 'msg93')">Copy</button>
+  <span class="copied-message" id="msg93">Copied!</span>
+</div>
+
+<div class="card">
+  <p id="quote94">Don’t waste your life proving yourself to people committed to misunderstanding you.</p>
+  <button onclick="copyToClipboard('quote94', 'msg94')">Copy</button>
+  <span class="copied-message" id="msg94">Copied!</span>
+</div>
+
+<div class="card">
+  <p id="quote95">One day, all the time you spent worrying will feel like theft.</p>
+  <button onclick="copyToClipboard('quote95', 'msg95')">Copy</button>
+  <span class="copied-message" id="msg95">Copied!</span>
+</div>
+
+<div class="card">
+  <p id="quote96">You can start over any day you stop wasting time on what drains you.</p>
+  <button onclick="copyToClipboard('quote96', 'msg96')">Copy</button>
+  <span class="copied-message" id="msg96">Copied!</span>
+</div>
+
+<div class="card">
+  <p id="quote97">Every yes costs you a little bit of your future — spend it wisely.</p>
+  <button onclick="copyToClipboard('quote97', 'msg97')">Copy</button>
+  <span class="copied-message" id="msg97">Copied!</span>
+</div>
+
+<div class="card">
+  <p id="quote98">Time doesn’t heal — what you do with it does.</p>
+  <button onclick="copyToClipboard('quote98', 'msg98')">Copy</button>
+  <span class="copied-message" id="msg98">Copied!</span>
+</div>
+
+<div class="card">
+  <p id="quote99">You will never regret the moments you were fully present.</p>
+  <button onclick="copyToClipboard('quote99', 'msg99')">Copy</button>
+  <span class="copied-message" id="msg99">Copied!</span>
+</div>
+
+<div class="card">
+  <p id="quote100">Your time is your life. Give it only where your soul feels safe.</p>
+  <button onclick="copyToClipboard('quote100', 'msg100')">Copy</button>
+  <span class="copied-message" id="msg100">Copied!</span>
+</div>
+
+
+ <script>
+  function copyToClipboard(quoteId, msgId) {
+  const text = document.getElementById(quoteId).innerText;
+  navigator.clipboard.writeText(text).then(() => {
+    const msg = document.getElementById(msgId);
+    const card = msg.closest(".card");
+
+    msg.classList.add("show");
+
+    setTimeout(() => {
+      msg.classList.remove("show");
+      card.classList.add("fade-out");
+
+      // Wait for the fade-out to finish before hiding it
+      setTimeout(() => {
+        card.style.display = "none";
+      }, 500); // match this to your CSS transition
+    }, 1500);
+  });
+}
+
+</script>
+</body>
+</html>
+
